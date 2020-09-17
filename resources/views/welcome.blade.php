@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>{{ env('APP_NAME', 'Laravel') }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,8 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    {{ env('APP_NAME', 'Laravel') }}
                 </div>
+                <p>{{ env('APP_KEY', 'null') }}</p>
+                <p>{{ env('PASSPORT_CLIENT_SECRET', 'Laravel') }}</p>
+                <p>{{ env('DB_HOST', 'null') }}</p>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
