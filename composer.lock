@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "81d9c61bb8c6ffc07c9b10e637af04c0",
+    "content-hash": "9e95a47ff2e06d92f8c864c12d6e1fc2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -814,16 +814,16 @@
         },
         {
             "name": "joselfonseca/lighthouse-graphql-passport-auth",
-            "version": "4.1.12",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joselfonseca/lighthouse-graphql-passport-auth.git",
-                "reference": "326eaf0711b96561e14cc0362eb9e360ca037085"
+                "reference": "077e1188e0d31fb6b56a650ff5e2b84043c18e66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joselfonseca/lighthouse-graphql-passport-auth/zipball/326eaf0711b96561e14cc0362eb9e360ca037085",
-                "reference": "326eaf0711b96561e14cc0362eb9e360ca037085",
+                "url": "https://api.github.com/repos/joselfonseca/lighthouse-graphql-passport-auth/zipball/077e1188e0d31fb6b56a650ff5e2b84043c18e66",
+                "reference": "077e1188e0d31fb6b56a650ff5e2b84043c18e66",
                 "shasum": ""
             },
             "require": {
@@ -867,7 +867,7 @@
                 "lighthouse",
                 "passport-auth"
             ],
-            "time": "2020-05-23T22:08:13+00:00"
+            "time": "2020-09-09T14:03:40+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -6381,6 +6381,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
